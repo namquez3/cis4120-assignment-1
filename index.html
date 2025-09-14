@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Search Classes — Mock</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="phone">
+    <div class="page">
+      <!-- Top blue bar -->
+      <header class="topbar">
+        <div class="brand">
+            <img class="logo-img" src="assets/penn-logo.png" alt="Penn logo" loading="lazy" />
+        </div>
+        <div class="hamburger" aria-label="Menu" role="img">
+          <span></span><span></span><span></span>
+        </div>
+      </header>
+
+      <!-- Red title bar -->
+      <div class="titlebar">Search Classes</div>
+
+      <!-- Primary search card -->
+      <section class="card">
+        <div class="stack">
+          <div>
+            <input id="q" type="text" placeholder="Title, Subject, Instructor, Keyword" />
+          </div>
+
+          <div class="row two">
+            <select aria-label="Term">
+              <option selected>Fall 2025</option>
+              <option>Spring 2026</option>
+              <option>Summer 2026</option>
+            </select>
+            <select aria-label="Instruction Method">
+              <option selected>Instruction Method</option>
+              <option>In Person</option>
+              <option>Online</option>
+              <option>Hybrid</option>
+            </select>
+          </div>
+
+          <div class="checks row two">
+            <label class="check"><input type="checkbox" /> Include Online Courses</label>
+            <label class="check"><input type="checkbox" /> Don’t Overlap Primary Cart</label>
+          </div>
+
+          <button class="btn" type="button">Search</button>
+        </div>
+      </section>
+
+      <!-- Advanced Search -->
+      <div class="sectionhead">Advanced Search</div>
+      <section class="group">
+        <div class="stack">
+          <input type="text" placeholder="Subject" />
+          <input type="text" placeholder="Level" />
+          <input type="text" placeholder="Credit" />
+          <input type="text" placeholder="Class Status" />
+          <input type="text" placeholder="Honors Attribute" />
+          <input type="text" placeholder="Course Attribute" />
+          <input type="text" placeholder="School" />
+          <input type="text" placeholder="Schedule Type" />
+          <input type="text" placeholder="Campus/Online" />
+          <input type="text" placeholder="Part of Term" />
+          <input type="text" placeholder="University Attribute" />
+          <input type="text" placeholder="Instructor" />
+        </div>
+      </section>
+    </div>
+  </main>
+
+</body>
+</html>

@@ -25,7 +25,7 @@ body {
 }
 
 .phone{
-  width:412px;
+  width:430px;
   background:transparent;
 }
 
@@ -158,10 +158,4 @@ input::placeholder{
     border-bottom-left-radius:8px; 
     border-bottom-right-radius:8px; 
     overflow:hidden
-}
-
-@media (max-width:380px){
-  .row.two{
-    grid-template-columns:1fr
-    }
 }
